@@ -12,6 +12,7 @@
 
 #pragma once
 
+#include <tuple>
 #include <drjit/idiv.h>
 #include <drjit/while_loop.h>
 
