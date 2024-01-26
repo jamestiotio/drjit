@@ -64,7 +64,7 @@ configure_file(
   ${CMAKE_CURRENT_BINARY_DIR}/../../drjit/config.py
 )
 
-foreach (FNAME IN ITEMS __init__.py ast.py detail.py)
+foreach (FNAME IN ITEMS __init__.py ast.py detail.py interop.py)
   configure_file(../../drjit/${FNAME} ${CMAKE_CURRENT_BINARY_DIR}/../../drjit/${FNAME} COPYONLY)
 endforeach()
 
